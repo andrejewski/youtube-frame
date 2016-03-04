@@ -37,4 +37,12 @@ $input.on('submit', function(e) {
   }
 });
 
+if(window.location.hash) {
+  var id = window.location.hash.slice(1);
+  $frame.removeClass('hidden');
+  $(window).on('resize', fitFrame);
+  fitFrame();
+  loadFrame("https://www.youtube.com/embed/"+id);
+}
+
 
