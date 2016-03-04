@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>YouTube Frame</title>
+    <link rel='stylesheet' href='index.css'/>
+  </head>
+  <body>
+    <form id='input' action=''>
+      <div class='link-bar'>
+        <label>
+          <span>YouTube Video URL</span>
+          <input type='text' class='link' placeholder='https://www.youtube.com/watch?v=bPXLZ5hWM20'/>
+        </label>
+        <input class='open' type='submit' value='Open'/>
+      </div>
+      <p class='warn'></p>
+    </form>
+    <iframe id='frame' class='hidden' frameborder='none'></iframe>
+
+    <script src='deps/jquery-1.12.0.min.js'></script>
+    <script src='index.js'></script>
+  </body>
+</html>
+

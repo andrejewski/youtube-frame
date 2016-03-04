@@ -1,0 +1,25 @@
+{
+  "name": "youtube-frame",
+  "version": "0.0.1",
+  "description": "Full window YouTube videos (not fullscreen, full window)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrejewski/youtube-frame.git"
+  },
+  "keywords": [
+    "youtube",
+    "frame",
+    "full",
+    "window"
+  ],
+  "author": "Chris Andrejewski <christopher.andrejewski@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrejewski/youtube-frame/issues"
+  },
+  "homepage": "https://github.com/andrejewski/youtube-frame#readme"
+}
